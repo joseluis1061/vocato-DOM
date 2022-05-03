@@ -1,3 +1,51 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.image{
+    width: 100%;
+}
+.contenedor{
+    max-width: 960px;
+    min-width: 280px;
+    margin: 0 auto;
+}
+
+@media(min-width: 550px){
+    .api{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 25px;
+        row-gap: 25px;
+        margin-top: 25px;
+    }
+}
+@media(min-width: 768px){
+    .api{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.borde-botton{
+    border-bottom: 1px solid gray;
+}
+.card-container{
+    display: grid;
+    grid-template-rows: 2fr 60px 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ede38c;
+    border-radius: 15px;
+    border: 1px solid gray;
+
+    max-width: 340px;
+    margin: 0 auto 20px auto;
+}
+
+.card-container img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card-container title{
+    border: 1px solid gray;
+}
