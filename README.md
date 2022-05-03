@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Snowpack Tailwind
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
@@ -80,3 +81,7 @@ Your app is ready to be deployed!
 ### Q: What about Eject?
 
 No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+=======
+# vocato-DOM
+Web de venta de aguacates mediante el consumo de API para ver su información y precios
+>>>>>>> 51fc6299b16d26adfc63757d320f80c61bf5bc7c
